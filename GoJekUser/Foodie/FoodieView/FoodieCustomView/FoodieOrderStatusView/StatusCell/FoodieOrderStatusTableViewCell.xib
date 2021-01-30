@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FoodieOrderStatusTableViewCell" rowHeight="70" id="KGk-i7-Jjw" customClass="FoodieOrderStatusTableViewCell" customModule="GoJekUser" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="389" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="389" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MC9-HW-KUm">
+                        <rect key="frame" x="12" y="8" width="365" height="63.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="MC9-HW-KUm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="CBc-6G-UmO"/>
+                    <constraint firstAttribute="bottom" secondItem="MC9-HW-KUm" secondAttribute="bottom" constant="8" id="GKM-5d-w78"/>
+                    <constraint firstAttribute="trailing" secondItem="MC9-HW-KUm" secondAttribute="trailing" constant="12" id="GZE-Lx-oFR"/>
+                    <constraint firstItem="MC9-HW-KUm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Pos-KZ-8rc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="orderStatusTableView" destination="MC9-HW-KUm" id="EJo-7e-1e0"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="-47.676161919040482"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FooterRouteCell" id="KGk-i7-Jjw" userLabel="FooterRouteCell" customClass="FooterRouteCell" customModule="Opus_X" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7d-KQ-gL4">
+                        <rect key="frame" x="10" y="0.0" width="300" height="44"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="K7d-KQ-gL4" secondAttribute="trailing" constant="10" id="3Ny-Jj-GV0"/>
+                    <constraint firstAttribute="bottom" secondItem="K7d-KQ-gL4" secondAttribute="bottom" id="b1x-hR-Nc1"/>
+                    <constraint firstItem="K7d-KQ-gL4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bsz-cc-KFS"/>
+                    <constraint firstItem="K7d-KQ-gL4" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="h2S-36-J1A"/>
+                    <constraint firstItem="K7d-KQ-gL4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="mn5-2P-vcx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addAddressButton" destination="K7d-KQ-gL4" id="lGv-tH-prl"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="147"/>
+        </tableViewCell>
+    </objects>
+</document>

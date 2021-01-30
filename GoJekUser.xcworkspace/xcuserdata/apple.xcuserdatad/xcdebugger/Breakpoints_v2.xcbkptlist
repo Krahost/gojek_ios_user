@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8996C289-86E0-436A-B375-FEE2173E698D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24136333-88E7-4FCF-AC15-1A8AB974FE07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoJekUser/Courier/CourierView/Controllers/CourierHomeController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "checkRequestApiCall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C5A903F-3365-4C04-9B72-D8B0CBA279D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoJekUser/Courier/CourierView/CustomViews/CourierInvoiceView/CourierInvoiceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "562"
+            endingLineNumber = "562"
+            landmarkName = "setValues(values:data:isSenderPay:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5214213B-0FF0-41C2-B4EA-334C8A196C11"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoJekUser/Courier/CourierView/CustomViews/CourierInvoiceView/CourierInvoiceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "673"
+            endingLineNumber = "673"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C393DE77-D615-4A3A-B40B-DC69415B41FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoJekUser/Courier/CourierView/Controllers/CourierHomeController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "478"
+            endingLineNumber = "478"
+            landmarkName = "handleRequest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C393DE77-D615-4A3A-B40B-DC69415B41FD - 26809841290f3981"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Opus_X.CourierHomeController.(handleRequest in _8210FCF1144CAA6FD1C08AEC66FAC7A6)() -&gt; ()"
+                  moduleName = "Opus X"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Projects/Gojek%20Base/Gojek%20User/GoJekUser/Courier/CourierView/Controllers/CourierHomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "478"
+                  endingLineNumber = "478"
+                  offsetFromSymbolStart = "65460">
+               </Location>
+               <Location
+                  uuid = "C393DE77-D615-4A3A-B40B-DC69415B41FD - d95f6a22d76bdba6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in Opus_X.CourierHomeController.(handleRequest in _8210FCF1144CAA6FD1C08AEC66FAC7A6)() -&gt; ()"
+                  moduleName = "Opus X"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Projects/Gojek%20Base/Gojek%20User/GoJekUser/Courier/CourierView/Controllers/CourierHomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "479"
+                  endingLineNumber = "479"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

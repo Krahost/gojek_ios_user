@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ExtraChargeView" customModule="GoJekUser" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2K6-1E-ZUc">
+                    <rect key="frame" x="37.5" y="48.5" width="300" height="46.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpP-py-poX">
+                            <rect key="frame" x="8" y="13" width="284" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="gpP-py-poX" secondAttribute="bottom" constant="13" id="b3G-cf-XoJ"/>
+                        <constraint firstAttribute="trailing" secondItem="gpP-py-poX" secondAttribute="trailing" constant="8" id="b5C-3o-XyA"/>
+                        <constraint firstItem="gpP-py-poX" firstAttribute="centerY" secondItem="2K6-1E-ZUc" secondAttribute="centerY" id="c0J-5x-vv1"/>
+                        <constraint firstItem="gpP-py-poX" firstAttribute="leading" secondItem="2K6-1E-ZUc" secondAttribute="leading" constant="8" id="jFM-Mp-enX"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZl-Id-Rhf">
+                    <rect key="frame" x="315" y="26" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="7ou-Me-Iai"/>
+                        <constraint firstAttribute="width" secondItem="vZl-Id-Rhf" secondAttribute="height" multiplier="1:1" id="ecR-bq-Wy0"/>
+                        <constraint firstAttribute="height" constant="30" id="wxb-1b-ff6"/>
+                    </constraints>
+                    <state key="normal" image="ic_close_cross"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="7ou-Me-Iai"/>
+                            <exclude reference="wxb-1b-ff6"/>
+                        </mask>
+                    </variation>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2K6-1E-ZUc" secondAttribute="trailing" constant="12" id="Mcl-gU-nPm"/>
+                <constraint firstItem="vZl-Id-Rhf" firstAttribute="centerX" secondItem="2K6-1E-ZUc" secondAttribute="trailing" id="Oge-5L-tK7"/>
+                <constraint firstItem="vZl-Id-Rhf" firstAttribute="width" secondItem="2K6-1E-ZUc" secondAttribute="width" multiplier="0.15" id="ecZ-G1-0KR"/>
+                <constraint firstItem="2K6-1E-ZUc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fHj-f1-hJN"/>
+                <constraint firstItem="2K6-1E-ZUc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-1" id="rhI-Jj-99Z"/>
+                <constraint firstItem="2K6-1E-ZUc" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="sq5-Vp-ARI"/>
+                <constraint firstItem="2K6-1E-ZUc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="wSG-it-5Pe"/>
+                <constraint firstItem="vZl-Id-Rhf" firstAttribute="centerY" secondItem="2K6-1E-ZUc" secondAttribute="top" id="y5s-AD-Wyr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Mcl-gU-nPm"/>
+                    <exclude reference="wSG-it-5Pe"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="closeButton" destination="vZl-Id-Rhf" id="W91-hM-z8o"/>
+                <outlet property="titleLabel" destination="gpP-py-poX" id="Nqf-g2-8mZ"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="369.26536731634184"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close_cross" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>708455232400-r0j54ta683biaislb2mh0i1fomb62gok.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.708455232400-r0j54ta683biaislb2mh0i1fomb62gok</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>708455232400-g8895374jhqv3ki5kjf1jolqdcj0mvq5.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC4YoV-JBT1MjsLk8FZW_DoAFrTVOjCs00</string>
+	<key>GCM_SENDER_ID</key>
+	<string>708455232400</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gox.app</string>
+	<key>PROJECT_ID</key>
+	<string>noted-amphora-240206</string>
+	<key>STORAGE_BUCKET</key>
+	<string>noted-amphora-240206.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:708455232400:ios:a8118978f9e3c27a</string>
+	<key>DATABASE_URL</key>
+	<string>https://noted-amphora-240206.firebaseio.com</string>
+</dict>
+</plist>

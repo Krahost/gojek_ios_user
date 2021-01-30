@@ -1,0 +1,567 @@
+/* 
+  Localizable.strings
+  GoJekUser
+
+  Created by Sravani on 22/05/19.
+  Copyright © 2019 Appoets. All rights reserved.
+*/
+
+//Login Constant
+
+"Service Selection" = "Service Selection";
+"Service Ongoing" = "Service Ongoing";
+"Rate Service" = "Rate Service";
+"Sign In" = "Sign In";
+"Sign Up" = "Sign Up";
+"Social Login" =  "Social Login";
+"Connect via Google" = "Connect via Google";
+"Connect via Facebook" = "Connect via Facebook";
+"Login Via" = "Login Via";
+"Forgot Password Via" = "Forgot Password Via";
+"Forgot Password?" = "Forgot Password?";
+"or" = "or";
+"Don't have an account" = "Don't have an account";
+"Create Account" = "Create Account";
+"Already have an account" = "Already have an account";
+"I accept the following Terms and conditions" = "I accept the following Terms and conditions";
+"Cannot make call at this moment" = "Cannot make call at this moment";
+"Could not open Email at the moment." = "Could not open Email at the moment.";
+"Choose Country Code" = "Choose Country Code";
+"Forgot Password" = "Forgot Password";
+"Choose Country" = "Choose Country";
+"Choose State" = "Choose State";
+"Choose City" = "Choose City";
+"Gender" = "Gender";
+"Male" = "Male";
+"Female" = "Female";
+"Password" = "Password";
+"Sign up via" = "Sign up via";
+"Login As Guest" = "Login As Guest";
+"No Country Found" = "No Country Found";
+"No City Found"   = "No City Found";
+"No Country Code Found" = "No Country Code Found";
+"Connect via Apple"  = "Connect via Apple";
+
+"State"                 = "State";
+"Search"                = "Search";
+"Referral(Optional)"    = "Referral(Optional)";
+"Terms and Conditions"  = "Terms and Conditions";
+"Coupon"                = "Coupon";
+"Ride Offer"            = "Ride Offer";
+"Offer Will expire in " = "Offer Will expire in ";
+"Enter First Name"      = "Enter First Name";
+"Enter Last Name"       = "Enter Last Name";
+"Enter City"            =  "Enter City";
+"Enter Country"         = "Enter Country";
+"Enter State"           = "Enter State";
+"Please accept Terms and conditions"    = "Please accept Terms and conditions";
+"Please signup this account."   = "Please signup this account.";
+"Enter the OTP received on the registered mobile number" = "Enter the OTP received on the registered mobile number";
+"Enter valid OTP" = "Enter valid OTP";
+
+"Otp Verification" = "Otp Verification";
+"VERIFY" = "VERIFY";
+"Order Cancel" = "Order Cancel";
+"Add +" = "Add +";
+"Offer applied on the bill" = "Offer applied on the bill";
+"(optional)" = "(optional)";
+"Can't open GoogleMap Application." = "Can't open GoogleMap Application.";
+//MyAccount Constants
+
+"Profile"           = "Profile";
+"Manage Address"    = "Manage Address";
+"Payment"           = "Payment";
+"Invite Referrals"  = "Invite Referrals";
+"Privacy Policy"    = "Privacy Policy";
+"Support"           = "Support";
+"Language"          = "Language";
+"My Account"        = "My Account";
+
+"Create new password"   = "Create new password";
+"Invalid OTP"           = "Invalid OTP";
+"Enter OTP"             = "Enter OTP";
+"Logout"                = "Logout";
+"Are you sure want to logout?"  = "Are you sure want to logout?";
+"Profile updated successfully"  = "Profile updated successfully";
+"Hey, I am using  \(APPConstant.appName) and invite you to join! Use my referral code: " = "Hey, I am using  \(APPConstant.appName) and invite you to join! Use my referral code: ";
+"Have a good day!"              = "Have a good day!";
+"Are you sure want to delete?"  = "Are you sure want to delete?";
+"You not save any address"      = "You not save any address";
+"You dont have transaction"     = "You dont have transaction";
+"Please enter your card"        = "Please enter your card";
+"Please enter expire year"      = "Please enter expire year";
+"Please enter expire month"     = "Please enter expire month";
+"Enter your CVV number"         = "Enter your CVV number";
+"Enter address title"           = "Enter address title";
+"Choose address type"           = "Choose address type";
+"This address type already exist, whould you like to edit?" = "This address type already exist, whould you like to edit?";
+"Language updated successfully"     = "Language updated successfully";
+"Amount Added Successfully"         = "Amount Added Successfully";
+
+"Payment Type" = "Payment Type";
+"limit" = "limit";
+"No Payment gateway" = "No Payment gateway";
+"Enter amount more than 0 and proceed" ="Enter amount more than 0 and proceed";
+"Scan for send or receive amount" = "Scan for send or receive amount";
+"Send amount" = "Send amount" ;
+"Receive amount" = "Receive amount";
+
+// Profile
+"First Name"        = "First Name";
+"Last Name"         = "Last Name";
+"Code"              = "Code";
+"Phone Number"      = "Phone Number";
+"Email Id"          = "Email Id";
+"Gender"            = "Gender";
+"Male"              = "Male";
+"Female"            = "Female";
+"Country"           = "Country";
+"City"              = "City";
+"Change Password"   = "Change Password";
+"Save"              = "Save";
+"Confirm Password"  = "Confirm Password";
+"Old Password"      = "Old Password";
+"New Password"      = "New Password";
+"OTP Verification"  = "OTP Verification";
+"Reset Password"    = "Reset Password";
+
+
+//Manage address
+"Saved Locations"   = "Saved Locations";
+"Edit"              = "Edit";
+"Delete"            = "Delete";
+"Add New Address"   = "Add New Address";
+"Location"          = "Location";
+"House/Flat No."    = "House/Flat No.";
+"landmark"          = "landmark";
+"Save As"           = "Save As";
+"Title"             = "Title";
+"Enter the details" = "Enter the details";
+"Confirm Location"  = "Confirm Location";
+"Enter location"    = "Enter location";
+"Enter flat"        = "Enter flat";
+"Enter landmark"    = "Enter landmark";
+"Enter title"       = "Enter title";
+"Add Address"       = "Add Address";
+
+//Payment
+"Please add card"           = "Please add card";
+"Please select card"        = "Please select card";
+"Please add valid amount"   = "Please add valid amount";
+"Transaction"               = "Transaction";
+"Wallet"                    = "Wallet";
+"Amount"                    = "Amount";
+"Status"                    = "Status";
+"Transaction id"            = "Transaction id";
+"Add Card Payments"         = "Add Card Payments";
+"Your address added successfully"        = "Your address added successfully";
+"Add Amount"                = "Add Amount";
+"Add Cards"                 = "Add Cards";
+"Amount Added to your Wallet"= "Amount Added to your Wallet";
+"Saved Cards"                = "Saved Cards";
+"Enter Amount"               = "Enter Amount";
+"Choose Payment"             = "Choose Payment";
+"Available Payments"         = "Available Payments";
+
+//Invite Refferals
+"Invite your friends and earn" = "Invite your friends and earn";
+"for every"                    = "for every";
+"new users"                    = "new users";
+"Your Referral Code"           = "Your Referral Code";
+"Referral Count"               = "Referral Count";
+"Referral Amount"              = "Referral Amount";
+
+//Support
+"You can contact our team \n\n anytime for your queries." = "You can contact our team \n\n anytime for your queries.";
+"Contact Our Team Via"          = "Contact Our Team Via";
+"Call"                          = "Call";
+"Mail"                          = "Mail";
+"Website"                       = "Website";
+
+//Language
+"Select Language"               = "Select Language";
+
+//Notofication
+"Notification"                  = "Notification";
+"No Notification Found"         = "No Notification Found";
+
+//History
+"History"                       = "History";
+"You have no past history"      = "You have no past history";
+"You have no current history"   = "You have no current history";
+"You have no upcoming trip history" = "You have no upcoming trip history";
+"Past"                          = "Past";
+"Current"                       = "Current";
+"Upcoming"                      = "Upcoming";
+"Source"                        = "Source";
+"Destination"                   = "Destination";
+"Payment Via"                   = "Payment Via";
+"Comments For"                  = "Comments For";
+"Comments For Order"            = "Comments For Order";
+"Items"                         = "Items";
+"Did you lose something ?"      = "Did you lose something ?";
+"Know the Lost item status"     = "Know the Lost item status";
+"Press the icon to mention the lost item" = "Press the icon to mention the lost item";
+"Dispute"                       = "Dispute";
+"Dispute Status"                = "Dispute Status";
+"Lostitem Status"               = "Lostitem Status";
+"View Receipt"                  = "View Receipt";
+"Cancel"                        = "Cancel";
+"Help"                          = "Help";
+"Chat"                          = "Chat";
+"Reset"                         = "Reset";
+"Apply"                         = "Apply";
+"Filter By"                     = "Filter By";
+"Trips"                         = "Trips";
+"Orders"                        = "Orders";
+"Transport"                     = "Transport";
+"Services"                      = "Services";
+"Please select one type"        = "Please select one type";
+"Others"                        = "Others";
+"Lost Item"                     = "Lost Item";
+"Please select one dispute type"    = "Please select one dispute type";
+"Enter your comment"            = "Enter your comment";
+"You"                           = "You";
+"Receipt"                       = "Receipt";
+"Base Fare"                     = "Base Fare";
+"Tax Fare"                      = "Tax Fare";
+"Hourly Fare"                   = "Hourly Fare";
+"Discount Applied"              = "Discount Applied";
+"Tips"                          = "Tips";
+"Total"                         = "Total";
+"Round Off"                     = "Round Off";
+"Waiting Time"                  = "Waiting Time";
+"Distance Fare"                 = "Distance Fare";
+"Extra Charge"                  = "Extra Charge";
+"No Comments"                   = "No Comments";
+
+"Dispute created Successfully"  = "Dispute created Successfully";
+"Lostitem created Successfully" = "Lostitem created Successfully";
+"Your trip cancelled successfully"  = "Your trip cancelled successfully";
+"Submit"                        = "Submit";
+"Total Payable"                = "Total Payable";
+
+// Common
+"Home"                          = "Home";
+"Work"                          = "Work";
+"Show More"                     = "Show More";
+"Show Less"                     = "Show Less";
+"Offers / Coupons"              = "Offers / Coupons";
+"Recommended Services"          = "Recommended Services";
+"View More"                     = "View More";
+"Saved Location"                = "Saved Location";
+"Current Location"              = "Current Location";
+"Enable Location Service"       = "Enable Location Service";
+"Featured Services"             = "Featured Services";
+"No Services Available in the city" = "No Services Available in the city";
+"No Feature Service Found"          = "No Feature Service Found";
+"No coupons Found"                  = "No coupons Found";
+"Yes"  = "Yes";
+"No" = "No";
+"OK" = "OK";
+"Unable to open camera, Check your camera permission" = "Unable to open camera, Check your camera permission";
+
+//Taxi
+"Daily Ride"                    = "Daily Ride";
+"mins"                          = "mins";
+"Get Pricing"                   = "Get Pricing";
+"Time Fare"                     = "Time Fare";
+"Capacity"                      = "Capacity";
+"Distance"                      = "Distance";
+"Drop Location"                 = "Drop Location";
+"PickUp Location"               = "PickUp Location";
+"Price Estimation"              = "Price Estimation";
+"Select date and time"          = "Select date and time";
+"Estimated Fare"                 = "Estimated Fare";
+"ETA"                           = "ETA";
+"Model"                         = "Model";
+"Wheel Chair"                   = "Wheel Chair";
+"Child Seat"                    = "Child Seat";
+"Book for someone"              = "Book for someone";
+"Use wallet amount"             = "Use wallet amount";
+"Coupon"                        = "Coupon";
+"Due to high demand price may vary" = "Due to high demand price may vary";
+"Schedule"                      = "Schedule";
+"Ride Now"                      = "Ride Now";
+"Finding driver nearby..."     = "Finding driver nearby...";
+"Cancel Request"                = "Cancel Request";
+
+"Driver has arrived your location" = "Driver has arrived your location";
+"Driver accepted your request"   = "Driver accepted your request";
+"You are on ride"                = "You are on ride";
+"Due to peak hours, charges are based on providers availability" = "Due to peak hours, charges are based on providers availability";
+"Enter source location"         = "Enter source location";
+"Enter destination location"    = "Enter destination location";
+"Choose your location"          = "Choose your location";
+"email"                         = "email";
+"Email"                         = "Email";
+"Please select service"         = "Please select service";
+"Enter your location"           = "Enter your location";
+"No Drivers Found"              = "No Drivers Found";
+"Share Ride"                    = "Share Ride";
+
+"Please Choose Drop Location"   = "Please Choose Drop Location";
+"Whould you like to make sos call"  = "Whould you like to make sos call";
+"Toll Charge"                       = "Toll Charge";
+"Waiting Fare"                  = "Waiting Fare";
+"Change Password ?" = "Change Password ?";
+"Language updated successfully" = "Language updated successfully";
+"Hatch Bag" = "Hatch Bag";
+"I'm in my way and would like to share my trip details with you, as currently with" = "I'm in my way and would like to share my trip details with you, as currently with";
+"at exact geolocation of"  = "at exact geolocation of";
+"Took my trip from"  = "Took my trip from";
+
+//Taxi Invoice
+"Invoice"                       = "Invoice";
+"Source and Destination"        = "Source and Destination";
+"Booking ID"                    = "Booking ID";
+"Distance Travelled"            = "Distance Travelled";
+"Waiting Charge"                = "Waiting Charge";
+"Time Taken"                    = "Time Taken";
+"Distance Fare"                 = "Distance Fare";
+"Tax"                           = "Tax";
+"WalletDeduction"               = "WalletDeduction";
+"Payable"                       = "Payable";
+
+"Select Date"                   = "Select Date";
+"Select Time"                   = "Select Time";
+"Schedule Your Date and Time"   = "Schedule Your Date and Time";
+
+//Coupon
+"Use this"                      = "Use this";
+"Remove"                        = "Remove";
+"Apply"                         = "Apply";
+"Validity till:"                = "Validity till:";
+"View Coupon"                   = "View Coupon";
+
+//Rating
+"Rating"                         = "Rating";
+"Rate your driver"               = "Rate your driver";
+"Rate the Restaurant"            = "Rate the Restaurant";
+"Leave your comments"             = "Leave your comments";
+
+//validation
+"Enter name"                    = "Enter name";
+"Enter Email Id"                = "Enter Email Id";
+"Enter valid phone number"      = "Enter valid phone number";
+"Enter valid email id"          = "Enter valid email id";
+"Enter Password"                = "Enter Password";
+"Enter Phone Number"            = "Enter Phone Number";
+"Password Must have Atleast 6 Characters."  = "Password Must have Atleast 6 Characters.";
+"Enter new password"            = "Enter new password";
+"Enter old password"            = "Enter old password";
+"Enter confirm password"        = "Enter confirm password";
+"Old password and new password not be same" = "Old password and new password not be same";
+"New password and confirm password should be same"  = "New password and confirm password should be same";
+
+"Please confirm your payment"     = "Please confirm your payment";
+"Add"                             = "Add";
+"Done"                            = "Done";
+"Confirm"                         = "Confirm";
+"Choose Reason"                   = "Choose Reason";
+
+"Are you sure you want to update the destination location"  = "Are you sure you want to update the destination location";
+"Are you sure you want to delete this schedule" = "Are you sure you want to delete this schedule";
+"Please select Date and Time"   = "Please select Date and Time";
+
+"View Coupon"                   = "View Coupon";
+"Change"                        = "Change";
+"Name"                          = "Name";
+"EDIT"                          = "EDIT";
+
+//Foodie
+"Offers"                        = "Offers";
+"Get up To"                     = "Get up To";
+"Shop Now"                      = "Shop Now";
+"Restaurants"                   = "Restaurants";
+"Dishes"                        = "Dishes";
+"Items Available"               = "Items Available";
+"Delivery Charge"               = "Delivery Charge";
+"Coupon Amount"                 = "Coupon Amount";
+"View"                          = "View";
+"Total Charge"                  = "Total Charge";
+"Delivery Address"              = "Delivery Address";
+"Schedule At"                   = "Schedule At";
+"Order Processed"               = "Order Processed";
+"Order is getting processed"    = "Order is getting processed";
+"Order On the way"              = "Order On the way";
+"Order is on the way"           = "Order is on the way";
+"Order Delivery"                = "Order Delivery";
+"Your order is delivered"       = "Your order is delivered";
+"Delivery person details"       = "Delivery person details";
+"Cart"                          = "Cart";
+"Map Track"                     = "Map Track";
+"Order Details"                 = "Order Details";
+"Remove Note"                   = "Remove Note";
+"Add Note"                      = "Add Note";
+"+ Addons"                      = "+ Addons";
+"Cuisine"                       = "Cuisine";
+"Filter"                        = "Filter";
+"search"                        = "search";
+"Veg"                           = "Veg";
+"Non Veg"                       = "Non Veg";
+"Timing"                        = "Timing";
+"Price"                         = "Price";
+"View Cart"                     = "View Cart";
+"Item"                          = "Item";
+"Extra charges may apply"       = "Extra charges may apply";
+"item_id"                       = "item_id";
+"cart_id"                       = "cart_id";
+"addons"                        = "addons";
+"% off on all orders"           = "% off on all orders";
+"Go-X Food"                     = "Go-X Food";
+"Mins"                          = "Mins";
+"apply filter"                  = "apply filter";
+"SHOW RESTAURANTS WITH"         = "SHOW RESTAURANTS WITH";
+"CLOSED"                        = "CLOSED";
+"store"                         = "store";
+"dish"                          = "dish";
+"Search for Restaurants or Dishes" = "Search for Restaurants or Dishes";
+"Pure Veg"                      = "Pure Veg";
+"Free Delivery"                 = "Free Delivery";
+"Shop Package Charge"           = "Shop Package Charge";
+"Tax Amount"                    = "Tax Amount";
+"CASH"                          = "CASH";
+"No item in cart"               = "No item in cart";
+"Order By"                      = "Order By";
+"Please Select Delivery Address" = "Please Select Delivery Address";
+"No Dish Available"             = "No Dish Available";
+"Use Wallet Amount"             = "Use Wallet Amount";
+"Add ons"                       = "Add ons";
+"PromoCode"                     = "PromoCode";
+" is Applied"                   = " is Applied";
+"PromoCode Discount"            = "PromoCode Discount";
+"Customizable"                  = "Customizable";
+"Shop Discount"                 =  "Shop Discount";
+"Item Total"                    = "Item Total";
+"Delivery Person Assigned"      = "Delivery Person Assigned";
+"Reached Shop"                  = "Reached Shop";
+"Order Picked up"               = "Order Picked up";
+
+"Placed Successfully"           = "Placed Successfully";
+"Order"                         = "Order";
+"Write Notes"                   = "Write Notes";
+"Order ID:"                     = "Order ID:";
+"No result found."              = "No result found.";
+"No result found. Please check the spelling or Try a different search"  = "No result found. Please check the spelling or Try a different search";
+"Your cart is empty. Add something from the menu"   = "Your cart is empty. Add something from the menu";
+"Your cart contains items from another Shop. Do you want to discard the selection and add items from this Shop?"  = "Your cart contains items from another Shop. Do you want to discard the selection and add items from this Shop?";
+"Repeat last used customizations?"  = "Repeat last used customizations?";
+"I'll Choose"                    = "I'll Choose";
+"Repeat Last"                    = "Repeat Last";
+
+"CHOOSE DATE"                   = "CHOOSE DATE";
+"CHOOSE TIME"                   = "CHOOSE TIME";
+
+"Please check your Internet conncection"    = "Please check your Internet conncection";
+"Request time out"               = "Request time out";
+"Enter tip amount"               = "Enter tip amount";
+"Enter amount for tips"          = "Enter amount for tips";
+"Write Something"                = "Write Something";
+"Choose your picture"            = "Choose your picture";
+"Open Camera"                    = "Open Camera";
+"Open Gallery"                     = "Open Gallery";
+
+"SHOW SHOPS WITH"                = "SHOW SHOPS WITH";
+"Category"                       = "Category";
+"Shops"                          = "Shops";
+"All"                            = "All";
+"Rate the Shop"                  = "Rate the Shop";
+"place order"  = "place order";
+"CUSTOMIZED +" = "CUSTOMIZED +";
+"Item Not Available" = "Item Not Available";
+"Please remove the items in cart proceed to check out" = "Please remove the items in cart proceed to check out";
+
+"Your Order is assigned to Delivery Person" = "Your Order is assigned to Delivery Person";
+"Delivery Person reached shop" = "Delivery Person reached shop";
+"Delivery Person picked up your order" = "Delivery Person picked up your order";
+"Order is delivered Successfully" = "Order is delivered Successfully";
+"Shop details" = "Shop details";
+"action" = "action";
+"addnew" = "addnew";
+"Search for Shops or Dishes" = "Search for Shops or Dishes";
+"doorstep delivery" = "doorstep delivery";
+"PromoCode Applied" = "PromoCode Applied";
+"Waiting for Shop Approval" = "Waiting for Shop Approval";
+"Your order is accepted by shop" = "Your order is accepted by shop";
+"Your order is Ready for the Pickup" = "Your order is Ready for the Pickup";
+"No near by shops to show" = "No near by shops to show";
+"No PromoCode List"  = "No PromoCode List";
+"Your cart contains items from another Shop. Do you want to discard the selection and add items from this Shop?" = "Your cart contains items from another Shop. Do you want to discard the selection and add items from this Shop?";
+"No Items Available" = "No Items Available";
+
+//Xuber
+
+"Proceed"           = "Proceed";
+"Service Type"      = "Service Type";
+"Rate"              = "Rate";
+"Payment"           = "Payment";
+"Wallet Amount"     = "Wallet Amount";
+"Schedule"          = "Schedule";
+"Request Now"       = "Request Now";
+"Status"            = "Status";
+"Provider accept your request"  = "Provider accept your request";
+"Provider started service"      = "Provider started service";
+"Provider work is on process"   = "Provider work is on process";
+"Looking for provider"          = "Looking for provider";
+"Book Now"                      = "Book Now";
+"Service Provider"              = "Service Provider";
+"Description"                   = "Description";
+"Reviews"                       = "Reviews";
+"No Review"                     = "No Review";
+"'s Review"                     = "'s Review";
+"Next"                          = "Next";
+"Completed"                     = "Completed";
+"Confirm Booking"               = "Confirm Booking";
+"KM Away"                       = "KM Away";
+"See more"                      = "See more";
+"No Providers available for your location"  = "No Providers available for your location";
+"Name"                          = "Name";
+"Service Name"                  = "Service Name";
+"Qty"                           = "Qty";
+"Scheduled On "                 = "Scheduled On ";
+"Enter your instruction"        = "Enter your instruction";
+"Instruction"                   = "Instruction";
+"You can upload a image"        = "You can upload a image";
+"Price"                         = "Price";
+"Select Date"                   = "Select Date";
+"Select Time"                   = "Select Time";
+"Please select Date"            = "Please select Date";
+"Please select Time"            = "Please select Time";
+"Please choose instruction image"   = "Please choose instruction image";
+"Please enter your instruction"     = "Please enter your instruction";
+"Rate your provider"                = "Rate your provider";
+
+"Booking Id"                    = "Booking Id";
+"Base Fare"                     = "Base Fare";
+"Tax fare"                      = "Tax fare";
+"Hourly fare"                   = "Hourly fare";
+"Wallet deduction"              = "Wallet deduction";
+"Coupon"                        = "Coupon";
+"Total"                         = "Total";
+"Amount to be paid"             = "Amount to be paid";
+"Cash"                          = "Cash";
+"Before"                        = "Before";
+"After"                         = "After";
+"Invoice"                       = "Invoice";
+"Add"                           = "Add";
+"Location"                      = "Location";
+"Saved Location"                = "Saved Location";
+"Suggested Location"            = "Suggested Location";
+"Search Location"               = "Search Location";
+"List"                          = "List";
+"Map"                           =  "Map";
+"Please choose one subservice"  = "Please choose one subservice";
+"Please choose number of service"   = "Please choose number of service";
+"Please choose your location"   = "Please choose your location";
+"Select Location"               = "Select Location";
+"Apply"                         = "Apply";
+"Tips"                          = "Tips";
+"Extra Charges"                 = "Extra Charges";
+"Finding nearby service provider"   = "Finding nearby service provider";
+"No Address Found"              = "No Address Found";
+"ADD"                = "ADD";
+"Waiting for provider approval" = "Waiting for provider approval";
+"Apply Coupon" = "Apply Coupon";
+"English" = "English";
+"Arabic" = "Arabic";

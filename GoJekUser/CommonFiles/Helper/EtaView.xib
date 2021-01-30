@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="EtaView" id="JWN-f7-fW5" customClass="EtaView" customModule="GoJekUser" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pEj-3W-JTJ">
+                    <rect key="frame" x="3" y="3" width="54" height="54"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQB-FM-3NX">
+                            <rect key="frame" x="0.0" y="10" width="54" height="13.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 mins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SP-lB-1Po">
+                            <rect key="frame" x="0.0" y="23.5" width="54" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="OQB-FM-3NX" firstAttribute="leading" secondItem="pEj-3W-JTJ" secondAttribute="leading" id="0h3-J6-SJt"/>
+                        <constraint firstAttribute="trailing" secondItem="3SP-lB-1Po" secondAttribute="trailing" id="CMP-xt-Vyk"/>
+                        <constraint firstItem="OQB-FM-3NX" firstAttribute="top" secondItem="pEj-3W-JTJ" secondAttribute="top" constant="10" id="Nk2-M8-ge8"/>
+                        <constraint firstAttribute="bottom" secondItem="3SP-lB-1Po" secondAttribute="bottom" constant="10" id="Npo-wz-rLC"/>
+                        <constraint firstItem="3SP-lB-1Po" firstAttribute="leading" secondItem="pEj-3W-JTJ" secondAttribute="leading" id="UvS-IM-mvw"/>
+                        <constraint firstAttribute="trailing" secondItem="OQB-FM-3NX" secondAttribute="trailing" id="daj-vw-99i"/>
+                        <constraint firstItem="3SP-lB-1Po" firstAttribute="top" secondItem="OQB-FM-3NX" secondAttribute="bottom" id="sPr-SK-OuE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pEj-3W-JTJ" firstAttribute="centerY" secondItem="JWN-f7-fW5" secondAttribute="centerY" id="0Rx-2n-vxi"/>
+                <constraint firstItem="pEj-3W-JTJ" firstAttribute="height" secondItem="JWN-f7-fW5" secondAttribute="height" multiplier="0.9" id="5WW-hd-12v"/>
+                <constraint firstItem="pEj-3W-JTJ" firstAttribute="centerX" secondItem="JWN-f7-fW5" secondAttribute="centerX" id="Kg4-LQ-GRd"/>
+                <constraint firstItem="pEj-3W-JTJ" firstAttribute="width" secondItem="JWN-f7-fW5" secondAttribute="width" multiplier="0.9" id="Qbt-Ak-Erl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="cev-mP-h7a"/>
+            <connections>
+                <outlet property="etaLabel" destination="OQB-FM-3NX" id="35i-iG-5hU"/>
+                <outlet property="etaTimeLabel" destination="3SP-lB-1Po" id="uAx-tl-U1R"/>
+                <outlet property="overView" destination="pEj-3W-JTJ" id="4M6-F0-0H3"/>
+            </connections>
+            <point key="canvasLocation" x="254.40000000000001" y="158.32083958020991"/>
+        </view>
+    </objects>
+</document>

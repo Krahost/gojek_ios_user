@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PaymentTypeTableViewCell" rowHeight="75" id="nU3-qA-3qp" customClass="PaymentTypeTableViewCell" customModule="GoJekProvider" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nU3-qA-3qp" id="b7z-GU-DcF">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TAn-ms-r2p">
+                        <rect key="frame" x="16" y="8" width="382" height="58.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CA.png" translatesAutoresizingMaskIntoConstraints="NO" id="TPV-28-1Ie">
+                                <rect key="frame" x="12" y="14.5" width="40" height="30"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4Z-tH-2T7">
+                                <rect key="frame" x="64" y="19" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TPV-28-1Ie" firstAttribute="leading" secondItem="TAn-ms-r2p" secondAttribute="leading" constant="12" id="6Y2-oF-eCB"/>
+                            <constraint firstItem="O4Z-tH-2T7" firstAttribute="leading" secondItem="TPV-28-1Ie" secondAttribute="trailing" constant="12" id="GV0-3K-sVK"/>
+                            <constraint firstItem="TPV-28-1Ie" firstAttribute="centerY" secondItem="TAn-ms-r2p" secondAttribute="centerY" id="HiS-wZ-4gD"/>
+                            <constraint firstItem="O4Z-tH-2T7" firstAttribute="centerY" secondItem="TAn-ms-r2p" secondAttribute="centerY" id="sNR-U1-oVl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="TAn-ms-r2p" secondAttribute="bottom" constant="8" id="5Sx-BY-oJJ"/>
+                    <constraint firstAttribute="trailing" secondItem="TAn-ms-r2p" secondAttribute="trailing" constant="16" id="RFS-Vk-DH0"/>
+                    <constraint firstItem="TAn-ms-r2p" firstAttribute="leading" secondItem="b7z-GU-DcF" secondAttribute="leading" constant="16" id="lc7-HN-EJs"/>
+                    <constraint firstItem="TAn-ms-r2p" firstAttribute="top" secondItem="b7z-GU-DcF" secondAttribute="top" constant="8" id="qnw-51-38d"/>
+                    <constraint firstItem="TAn-ms-r2p" firstAttribute="centerY" secondItem="b7z-GU-DcF" secondAttribute="centerY" id="xzh-rl-9u5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cardBakgroundView" destination="TAn-ms-r2p" id="WGq-ja-Dng"/>
+                <outlet property="cardNameLabel" destination="O4Z-tH-2T7" id="Z38-6q-3d4"/>
+                <outlet property="cardTypeImageView" destination="TPV-28-1Ie" id="rSP-vT-XIE"/>
+            </connections>
+            <point key="canvasLocation" x="128.98550724637681" y="73.995535714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="CA.png" width="40" height="30"/>
+    </resources>
+</document>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="XuberApplyCouponCell" rowHeight="111" id="KGk-i7-Jjw" customClass="XuberApplyCouponCell" customModule="Opus_X" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="357" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQf-h9-Pk8">
+                        <rect key="frame" x="8" y="8" width="341" height="1"/>
+                        <color key="backgroundColor" white="0.67000000000000004" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="V2B-ga-fUc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WcR-Wf-BPx">
+                        <rect key="frame" x="10" y="59" width="219" height="35"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HYh-cf-loL">
+                                <rect key="frame" x="8" y="4" width="203" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HYh-cf-loL" firstAttribute="top" secondItem="WcR-Wf-BPx" secondAttribute="top" constant="4" id="9Hg-bI-Xpf"/>
+                            <constraint firstItem="HYh-cf-loL" firstAttribute="leading" secondItem="WcR-Wf-BPx" secondAttribute="leading" constant="8" id="Eh0-QE-P5l"/>
+                            <constraint firstAttribute="height" constant="35" id="d6N-fw-i6r"/>
+                            <constraint firstAttribute="trailing" secondItem="HYh-cf-loL" secondAttribute="trailing" constant="8" id="fyK-J0-6xQ"/>
+                            <constraint firstAttribute="bottom" secondItem="HYh-cf-loL" secondAttribute="bottom" constant="4" id="pL9-Mu-elO"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeB-N2-cBw">
+                        <rect key="frame" x="252" y="64" width="95" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="B8u-oo-3mE"/>
+                            <constraint firstAttribute="width" constant="95" id="K1y-FB-xrv"/>
+                        </constraints>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apply Coupon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OH9-zN-YiN">
+                        <rect key="frame" x="10" y="21" width="108.5" height="26"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CQf-h9-Pk8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="8eN-XV-43V"/>
+                    <constraint firstItem="OH9-zN-YiN" firstAttribute="top" secondItem="CQf-h9-Pk8" secondAttribute="bottom" constant="12" id="8pu-fX-iGq"/>
+                    <constraint firstItem="CQf-h9-Pk8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="HnC-wt-Nja"/>
+                    <constraint firstItem="AeB-N2-cBw" firstAttribute="leading" secondItem="WcR-Wf-BPx" secondAttribute="trailing" constant="23" id="IBM-Pl-mOS"/>
+                    <constraint firstAttribute="trailing" secondItem="AeB-N2-cBw" secondAttribute="trailing" constant="10" id="Ii9-RI-XdZ"/>
+                    <constraint firstItem="WcR-Wf-BPx" firstAttribute="leading" secondItem="OH9-zN-YiN" secondAttribute="leading" id="W5T-Jq-uGf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="WcR-Wf-BPx" secondAttribute="bottom" constant="6" id="Was-OV-Yav"/>
+                    <constraint firstItem="AeB-N2-cBw" firstAttribute="centerY" secondItem="WcR-Wf-BPx" secondAttribute="centerY" id="YPW-Cp-8kM"/>
+                    <constraint firstItem="WcR-Wf-BPx" firstAttribute="top" secondItem="OH9-zN-YiN" secondAttribute="bottom" constant="12" id="eO9-pH-gdJ"/>
+                    <constraint firstAttribute="trailing" secondItem="CQf-h9-Pk8" secondAttribute="trailing" constant="8" id="pbA-b8-w1z"/>
+                    <constraint firstItem="OH9-zN-YiN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ta4-2D-QPr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="applyButton" destination="AeB-N2-cBw" id="Jdi-gN-Yr3"/>
+                <outlet property="couponTextField" destination="HYh-cf-loL" id="pOL-s2-hYd"/>
+                <outlet property="staticApplyCouponLabel" destination="OH9-zN-YiN" id="Xcl-PE-PHT"/>
+            </connections>
+            <point key="canvasLocation" x="108" y="170.46476761619192"/>
+        </tableViewCell>
+    </objects>
+</document>

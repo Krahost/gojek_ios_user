@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FoodieNavigationView" customModule="GoJekUser" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="79"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecY-QN-sWD">
+                    <rect key="frame" x="8" y="24" width="41.5" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ecY-QN-sWD" secondAttribute="height" multiplier="1:1" id="lI1-R5-1F4"/>
+                    </constraints>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEQ-xy-16G">
+                    <rect key="frame" x="57.5" y="44.5" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2MU-an-U5U">
+                    <rect key="frame" x="406" y="44.5" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="lEQ-xy-16G" firstAttribute="leading" secondItem="ecY-QN-sWD" secondAttribute="trailing" constant="8" id="9UF-yL-6po"/>
+                <constraint firstAttribute="trailing" secondItem="2MU-an-U5U" secondAttribute="trailing" constant="8" id="UYn-Xn-IX7"/>
+                <constraint firstItem="ecY-QN-sWD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="WYo-5O-20c"/>
+                <constraint firstItem="ecY-QN-sWD" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="ZcC-KR-lap"/>
+                <constraint firstItem="ecY-QN-sWD" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.1" id="aCP-V2-KIb"/>
+                <constraint firstItem="2MU-an-U5U" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="k6P-t3-u6b"/>
+                <constraint firstItem="lEQ-xy-16G" firstAttribute="centerY" secondItem="ecY-QN-sWD" secondAttribute="centerY" id="rhf-vv-6Kb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backButton" destination="ecY-QN-sWD" id="MsE-2x-L5c"/>
+                <outlet property="orderIDLabel" destination="2MU-an-U5U" id="Bxu-Zo-46T"/>
+                <outlet property="staticTrackLabel" destination="lEQ-xy-16G" id="KTk-yb-GmG"/>
+            </connections>
+            <point key="canvasLocation" x="47.826086956521742" y="94.754464285714278"/>
+        </view>
+    </objects>
+</document>
